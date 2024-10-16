@@ -32,3 +32,26 @@ console.log("Hello World");
 
 }
 console.log(typeof outsideTempr);
+
+
+// ***************************************************
+//Stack(primitive) And Heap(Non-primitive)
+
+let myname="Shubham"
+
+let anothername = myname
+anothername = "subu"
+console.log(myname);
+console.log(anothername);
+
+let user ={
+    email:"user2gmail.com",
+    UPi: "user@ybl"
+}
+let user2 = user
+
+user2.email= "user2@gmail.com"
+console.log(user.email);
+console.log(user2.email);
+
+
